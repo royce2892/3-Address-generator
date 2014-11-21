@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:weightSum="100" >
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="15dp"
+        android:layout_gravity="top"
+        android:layout_weight="15"
+        android:gravity="center"
+        android:text="3 Address code"
+        android:textColor="#0099ff"
+        android:background="@drawable/back"
+        android:textSize="30dp"
+        android:scrollbars="vertical" />
+    
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#bbb" >
+    </Button>
+    
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="85dp"
+        android:layout_weight="85"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:id="@+id/out"
+        android:scrollbars="vertical|horizontal"
+        android:background="@drawable/back"/>
+    
+
+</LinearLayout>
